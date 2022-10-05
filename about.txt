@@ -1,0 +1,2 @@
+This repo contains some useful linux concepts and commands.
+May come in handy.

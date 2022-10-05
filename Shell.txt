@@ -1,0 +1,7 @@
+Linux offers a good GUI for the ease of users which some people may prefer but that is not how Linux is
+supposed to be used. To navigate around we use something called a shell. A shell (also called terminal or
+ command line) provides an interface between the kernel and the user. We have more freedom using the shell 
+ than the GUI because of the many things we can play around with. It gives us many possibilities to 
+ interact with programs and is also a faster means of getting information.
+
+ The most commonly used shell in Linux is the BASH(Bourne-Again Shell).

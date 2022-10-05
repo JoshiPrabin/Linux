@@ -1,0 +1,30 @@
+cd - change directory (use "cd .." to go to previous directory)
+whoami - who you are logged in as
+pwd - print work directory
+cp - copy
+rm - remove
+ls -  list
+clear (or ctrl + l)
+cat - concatenate (cat <file name> - will throw the file as it is on the terminal)
+sudo -  superuser do(gives special permission)
+which - (to see where command binaries are)
+ps - process status(tells us the processes running in the linux box)
+to switch to root(#) --> su root 
+
+
+// users in Linux
+adduser - adds a new user(to view if the use is created cat /etc/passwd)
+ // when we create a user we also create a group of the same name
+ useradd - adds a userand nothing else
+ sudo passwd <user_name> - to set or reset passwd
+usermod - user modification
+su - <user_name> - switch user
+sudo visudo -  to edit the sudoers file
+userdel - deletes user
+groupadd - adds a new group(to see cat /etc/group)
+
+
+// for help: 
+man <command_name> - manual
+<command_name> --help
+apropos <what you want to do>

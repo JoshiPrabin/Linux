@@ -11,3 +11,6 @@ available on Linux.
 
 From here on out we will use Linux based OS and Linux interchangebly
 because it's easier to say Linux than to refer to Linux Based OS all the time.
+
+In Linux everything is in a file format(even hardware components like your hard disk). Even the commands we
+use are stored as files.

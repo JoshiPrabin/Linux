@@ -1,0 +1,10 @@
+// users in Linux
+adduser - adds a new user(to view if the use is created cat /etc/passwd)
+ // when we create a user we also create a group of the same name
+ useradd - adds a userand nothing else
+ sudo passwd <user_name> - to set or reset passwd
+usermod - user modification
+su - <user_name> - switch user
+sudo visudo -  to edit the sudoers file
+userdel - deletes user
+groupadd - adds a new group(to see cat /etc/group)

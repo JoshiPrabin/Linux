@@ -1,0 +1,12 @@
+apt update = gets the packages from the repository
+apt(syntax: sudo apt <package_name>) = advanced package tool
+apt --fix-broken install  = incase something's broken
+sudo apt list =  list all the packages in the repository
+apt list --installed  = to see what you're installed with
+apt list --installed | grep ^<search>  = to search for something installed
+sudo apt show <search>  = shows what it is
+sudo search <search>  = easier way to search
+sudo apt remove <package_name>  = removes the package but not the user data
+sudo apt purge <package_name>  = removes everything about the package
+sudo apt update && sudo apt upgrade == check the repo for updates and update
+sudo apt update && sudo apt full-upgrade

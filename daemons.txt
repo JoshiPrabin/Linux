@@ -1,0 +1,23 @@
+Let us first try to understand what processes are in Linux.
+Processes are an instance of a running program. Example:When you open sublime. When you open a certain program
+that provides some service, you've basically started a process.
+
+Daemons are the processes that are running in the background to provide services to the end-user.
+Example: Networking daemon, SSH daemon, printing daemon etc.
+Systemd is the master daemon process that controls(starting,stoping,restarting) all other daemon processes.
+Systemd is a service manager and a initialization system.
+
+Some useful commands: 
+process status = ps -aux
+to stop a process = systemctl stop <process name>
+to see status = systemctl status <pricess name>
+to start a process = systemctl start <process name>
+to restart a process = systemctl restart <process name>
+(pretty self explanatory)  systemctl reload-or-restart <process name>
+to disable a process =  systemctl disbale <process name>
+to enable a process =  systemctl enable <process name>
+to check if it is active = systemctl is-active <process name>
+to check if it is enabled = systemctl is-enabled <process name>
+to see the daemons that systemd knows about = systemctl list-units
+
+Systemctl is a command line tool that we use to control the daemons
